@@ -28,7 +28,10 @@ def schedule_reminder(interview):
     else:
         print(f"Não é possível agendar lembrete de um dia antes para {interview['name']}: o tempo já passou.")
 
+
     if one_hour_before > now:
+        print(one_day_before)
+        print(now)
         seconds_until_hour_before = (one_hour_before - now).total_seconds()
         print(f"Agendando lembrete uma hora antes para {interview['name']} em {seconds_until_hour_before:.2f} segundos.")
         schedule.every(seconds_until_hour_before).seconds.do(

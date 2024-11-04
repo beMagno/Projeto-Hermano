@@ -1,15 +1,30 @@
-Gestor: Hermano
-Data: 2024-10-03
-Horário: 14:00
+Gestor: Hermano
+
+Data: 2024-10-03
+
+Horï¿½rio: 14:00
+
 
 ========================================
-Gestor: Marcelo
-Data: 2024-10-08
-Horário: 17:00
+Gestor: Marcelo
+
+Data: 2024-10-08
+
+Horï¿½rio: 17:00
+
 
 ========================================
-Gestor: PG
-Data: 2024-11-03
-Horário: 19:00
+Gestor: PG
+
+Data: 2024-11-03
+
+Horï¿½rio: 19:00
+
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horï¿½rio: 2024-10-29 17:00:00
+Nome do convidado: Hapvida & Tecla
+E-mail do cliente: mateus.carneiro@gmail.com
 
 ========================================
