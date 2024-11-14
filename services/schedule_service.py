@@ -1,50 +1,37 @@
-import schedule
-import time
+from datetime import datetime, timedelta
 from services.email_service import send_email
 from services.message_service import generate_message
-from datetime import datetime, timedelta
+import time
+from data.mock_data import mock_interviews  # Importando dados mocados
 
-def schedule_reminder(interview):
+def check_and_send_reminders():
     """
-    Agendar os lembretes para um dia antes e uma hora antes da entrevista.
+    Verifica cada entrevista e envia lembretes quando necessário.
     """
-    interview_time_str = interview['interview_time']
-    interview_time = datetime.strptime(interview_time_str, "%Y-%m-%d %H:%M")
-    email = interview['email']
-
-    # Calcular o horário de um dia antes e uma hora antes
-    one_day_before = interview_time - timedelta(days=1)
-    one_hour_before = interview_time - timedelta(hours=1)
-
     now = datetime.now()
+    
+    for interview in mock_interviews:
+        interview_time = datetime.strptime(interview['interview_time'], "%Y-%m-%d %H:%M")
+        one_day_before = interview_time - timedelta(days=1)
+        one_hour_before = interview_time - timedelta(hours=1)
+        
+        # Envio de lembrete de 1 dia antes, caso ainda não tenha sido enviado
+        if now == one_day_before and not interview['one_day_sent']:
+            send_email(interview['email'], "Lembrete de Entrevista", generate_message(interview, 'one_day'))
+            print(f"Lembrete de 1 dia enviado para {interview['name']} em {now}")
+            interview['one_day_sent'] = True  # Marca como enviado
+            
+        # Envio de lembrete de 1 hora antes, caso ainda não tenha sido enviado
+        if now == one_hour_before and not interview['one_hour_sent']:
+            send_email(interview['email'], "Lembrete de Entrevista", generate_message(interview, 'one_hour'))
+            print(f"Lembrete de 1 hora enviado para {interview['name']} em {now}")
+            interview['one_hour_sent'] = True  # Marca como enviado
 
-    # Agendar o envio de lembretes nesses horários
-    if one_day_before > now:
-        seconds_until_day_before = (one_day_before - now).total_seconds()
-        print(f"Agendando lembrete um dia antes para {interview['name']} em {seconds_until_day_before:.2f} segundos.")
-        schedule.every(seconds_until_day_before).seconds.do(
-            send_email, email, "Lembrete de Entrevista", generate_message(interview, 'one_day')
-        )
-    else:
-        print(f"Não é possível agendar lembrete de um dia antes para {interview['name']}: o tempo já passou.")
-
-
-    if one_hour_before > now:
-        print(one_day_before)
-        print(now)
-        seconds_until_hour_before = (one_hour_before - now).total_seconds()
-        print(f"Agendando lembrete uma hora antes para {interview['name']} em {seconds_until_hour_before:.2f} segundos.")
-        schedule.every(seconds_until_hour_before).seconds.do(
-            send_email, email, "Lembrete de Entrevista", generate_message(interview, 'one_hour')
-        )
-    else:
-        print(f"Não é possível agendar lembrete de uma hora antes para {interview['name']}: o tempo já passou.")
-
-def run_scheduled_tasks():
+def run_reminder_service():
     """
-    Roda as tarefas agendadas em um loop infinito.
+    Roda o serviço de lembretes em um loop infinito para verificar e enviar os lembretes no tempo correto.
     """
     while True:
-        print(f"[{datetime.now()}] Verificando lembretes agendados...")
-        schedule.run_pending()
-        time.sleep(10)
+        print("verificando agendamentos...")
+        check_and_send_reminders()
+        time.sleep(10)  # Verifica a cada 60 segundos

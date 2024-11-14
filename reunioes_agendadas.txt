@@ -1,30 +1,174 @@
-Gestor: Hermano
-
-Data: 2024-10-03
-
-Horï¿½rio: 14:00
-
-
-========================================
-Gestor: Marcelo
-
-Data: 2024-10-08
-
-Horï¿½rio: 17:00
-
-
-========================================
-Gestor: PG
-
-Data: 2024-11-03
-
-Horï¿½rio: 19:00
-
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-09-11 17:09:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
 
 ========================================
 Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
-Data e horï¿½rio: 2024-10-29 17:00:00
-Nome do convidado: Hapvida & Tecla
-E-mail do cliente: mateus.carneiro@gmail.com
+Data e horário: 2024-09-11 17:09:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-09-11 17:09:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-09-11 17:09:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-09-11 17:09:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-09-11 17:09:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-09-11 13:40:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-13 15:05:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-13 15:09:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelcordeirobraga@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-13 15:20:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-13 15:20:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 15:25:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 15:45:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-13 16:45:00
+Nome do convidado: Tecla Marcelo Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 15:25:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 16:17:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 16:25:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 17:15:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 13:14:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 13:35:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 13:43:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 13:45:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 14:07:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 14:13:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 14:16:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 14:26:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-15 14:38:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 14:44:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
+
+========================================
+Enviado por: Natanael Braga <natanaelcordeirobraga@gmail.com>
+Data e horário: 2024-11-14 15:50:00
+Nome do convidado: Tecla Mateus Product Owner
+E-mail do cliente: natanaelbraga92@gmail.com
 
 ========================================
