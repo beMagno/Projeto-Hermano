@@ -112,6 +112,9 @@ def read_emails(imap_server):
                         print(f"Informações extraídas: {meeting_info}")
                     else:
                         print("Formato do e-mail não corresponde ao esperado. Ignorado.")
+
+                    print(extractingWithDatefinder(body))
+                    
     except Exception as e:
         print(f"Erro ao ler e-mails: {e}")
 
@@ -199,6 +202,21 @@ def extract_meeting_info(body):
         print(f"Erro ao processar o corpo do e-mail: {e}")
         return None
 
+#pegando a data do evento com datefinder
+def extractingWithDatefinder(body):
+    print("buscando datas...")
+    geting_date = list(datefinder.find_dates(body))
+    print(f"data encontrada {geting_date}")
+    event_date = None
+    if geting_date:
+        print("transformando para o formato datetime")
+        transform_date = geting_date[0]
+        event_date = transform_date.strftime("%y/%m/%d")
+        print(f"data encontrada: {event_date}")
+    else:
+        print("data não encontrada")
+    
+    return event_date
 
 if __name__ == "__main__":
     USERNAME = os.getenv("EMAIL_USER")
